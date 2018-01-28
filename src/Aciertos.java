@@ -30,8 +30,15 @@ public class Aciertos {
                 System.out.print("Casi cerca ...");
             }
             cont++;
-        } while (n != x);
+        } 
+        /**
+         * Cuando el valor del número introducido sea igual al número generado por el programa
+         * nos sacara del bucle y nos mostrará que hemos acertado y el numero de intentos.
+         */
+        
+        while (n != x);
         System.out.print("Exelente!!! Haz acertado , No. de intentos: "+cont );
         sc.close();
+        
     }
 }
